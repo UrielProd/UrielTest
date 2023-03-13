@@ -10,50 +10,24 @@
     <version>1.0.0</version>
     
     <dependencies>
-        <!-- Spring Framework -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
-            <version>5.3.14.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-web</artifactId>
-            <version>5.3.14.RELEASE</version>
-        </dependency>
-        
-        <!-- Apache Commons Lang -->
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>3.12.0</version>
-        </dependency>
-        
-        <!-- Log4j -->
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-api</artifactId>
-            <version>2.15.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>2.17.1</version>
-        </dependency>
-        
-        <!-- Jackson -->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.13.4.1</version>
-        </dependency>
-        
-        <!-- JUnit -->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.13.2</version>
-        </dependency>
+  <!-- https://mvnrepository.com/artifact/org.http4k/http4k-format-moshi -->
+<dependency>
+    <groupId>org.http4k</groupId>
+    <artifactId>http4k-format-moshi</artifactId>
+    <version>4.40.1.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.http4k/http4k-connect-amazon-core -->
+<dependency>
+    <groupId>org.http4k</groupId>
+    <artifactId>http4k-connect-amazon-core</artifactId>
+    <version>3.0.0.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.http4k/http4k-template-core -->
+<dependency>
+    <groupId>org.http4k</groupId>
+    <artifactId>http4k-template-core</artifactId>
+    <version>4.1.1.2</version>
+</dependency>
     </dependencies>
     
 </project>
