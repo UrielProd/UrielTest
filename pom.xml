@@ -15,7 +15,7 @@
     <properties>
         <feign.version>11.9</feign.version>
         <java.version>1.8</java.version>
-        <agent.api.version>2.9.9.77</agent.api.version>
+        <agent.api.version>2.9.9.78</agent.api.version>
     </properties>
     <dependencies>
         <dependency>
